@@ -10,15 +10,23 @@
     <%= javascript_importmap_tags %>
   </head>
 
+  <nav class="navbar">
+
+    <div id="navigation">
+    <a href="home">Home</a>
+    <a href="about">About Me</a>
+    <a href="work">My Work</a>
+    <a href="contact">Contact</a>
+    </div>
+
+  </nav>
+
   <body>
     <%= yield %>
   </body>
 
-  <div id="navigation">
-  <a href="home">Home</a>
-  <a href="about">About Me</a>
-  <a href="work">My Work</a>
-  <a href="contact">Contact</a>
-  </div>
+  <footer>
+  &copy; 2024 Alicia Ruz
+  </footer>
 
 </html>
